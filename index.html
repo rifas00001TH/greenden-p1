@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
 </head>
 <body>
-  <nav class="bg-green-100 p-4 flex justify-between shadow-xl items-center sticky top-0">
+  <nav class="bg-green-100 p-4 flex justify-between shadow-xl items-center sticky top-0 z-10">
     <h1 class="text-2xl capitalize">greenden</h1>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-6 ">
         <path fill-rule="evenodd" d="M2 3.75A.75.75 0 0 1 2.75 3h10.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 3.75ZM2 8a.75.75 0 0 1 .75-.75h10.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 8Zm0 4.25a.75.75 0 0 1 .75-.75h10.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75Z" clip-rule="evenodd" class="md:hidden"/>
@@ -16,15 +16,15 @@
       
       
   <ul class="flex gap-5 text-gray-600 capitalize hidden lg:flex">
-    <li><a href="#" class="hover:underline hover:text-black">home</a></li>
-    <li><a href="#" class="hover:underline hover:text-black">products</a></li>
-    <li><a href="#" class="hover:underline hover:text-black">contact</a></li>
+    <li><a href="index.html" class="hover:underline hover:text-black">home</a></li>
+    <li><a href="index1.html" class="hover:underline hover:text-black">products</a></li>
+    <li><a href="index2.html" class="hover:underline hover:text-black">contact</a></li>
   </ul>
 
   </nav>
-  <section class="bg-green-100 px-4 py-4 capitalize flex justify-center">
+  <section class="bg-green-100 p-4 md:p-10 capitalize flex justify-center">
     <div> <p class="mb-4 ">we offer you wide range of artificial and natural flowers</p>
-        <h2 class="font-bold text-3xl mb-4">plants for your interior</h2>
+        <h2 class="font-bold text-3xl  md:text-5xl mb-4">plants for your interior</h2>
         <div class="">
             <button class="bg-black rounded text-white p-2 capitalize">shop now</button>
             <button class="border border-black rounded p-2 capitalize">watch video</button>
@@ -71,5 +71,66 @@
    </div>
   </div>
 </section>
+<section class="p-4 capitalize text-center ">
+  <h1 class="font-bold mt-5 text-2xl ">best seller</h1>
+  <div class="grid grid-cols-2 mt-5 gap-5 md:grid-cols-4">
+    <div class="mt-3">
+      <img src="./image/best-seller1.png" alt="best-seller1" class="inline hover:shadow-xl transform hover:-translate-y-3 ">
+      <h1>lilly plant</h1>
+      <p>$20</p>
+    </div>
+    <div  class="mt-3">
+      <img src="./image/best-seller2.png" alt="best-seller1" class="inline hover:shadow-xl transform hover:-translate-y-3">
+      <h1>rose plant</h1>
+      <p>$25</p>
+    </div>
+    <div class="mt-3">
+      <img src="./image/best-seller3.png" alt="best-seller1" class="inline hover:shadow-xl transform hover:-translate-y-3">
+      <h1>tulips plant</h1>
+      <p>$50</p>
+    </div>
+    <div class="mt-3">
+      <img src="./image/best-seller4.png" alt="best-seller1" class="inline hover:shadow-xl transform hover:-translate-y-3">
+      <h1>aloevera plant</h1>
+      <p>$10</p>
+    </div>
+    
+   
+  </div>
+  
+
+</section>
+<section class="capitalize">
+  <h1 class="text-center font-bold text-3xl mt-5">customer reviews</h1>
+ <div class="p-3 bg-green-700 m-5 flex flex-col">
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+     Deserunt exercitationem quibusdam repudiandae, veniam nemo itaque maxime aliquam, in adipisci est ut nesciunt excepturi ex sint provident tempore asperiores assumenda cumque commodi! Quo tempora eos porro assumenda voluptatum obcaecati voluptates nisi et neque, fuga saepe nihil! Earum accusantium nostrum at maxime.</p>
+     <p class="text-yellow-300 font-medium">genny methew</p>
+ </div>
+ <div class="p-3 bg-green-700 m-5">
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    Deserunt exercitationem quibusdam repudiandae, veniam nemo itaque maxime aliquam, in adipisci est ut nesciunt excepturi ex sint provident tempore asperiores assumenda cumque commodi! Quo tempora eos porro assumenda voluptatum obcaecati voluptates nisi et neque, fuga saepe nihil! Earum accusantium nostrum at maxime.</p>
+    <p class="text-yellow-300 font-medium">amir</p>
+</div>
+<div class="p-3 bg-green-700 m-5">
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    Deserunt exercitationem quibusdam repudiandae, veniam nemo itaque maxime aliquam, in adipisci est ut nesciunt excepturi ex sint provident tempore asperiores assumenda cumque commodi! Quo tempora eos porro assumenda voluptatum obcaecati voluptates nisi et neque, fuga saepe nihil! Earum accusantium nostrum at maxime.</p>
+    <p class="text-yellow-300 font-medium">jim</p>
+</div>
+</section>
+<section class="text-center capitalize ">
+  <h1 class="text-3xl font-bold ">join our news letter</h1>
+  <p>signup for your email newspaper to get exclusive discounts,updates and more</p>
+<input type="text" class="border border-black p-2 m-3" style="width: 80%;"></br>
+<button class="bg-black text-white p-2 rounded hover:underline">Subscribe</button>
+</section>
+<section class="bg-green-100 p-5 capitalize mt-3 ">
+  <h1 class="font-bold text-3xl">greenden</h1>
+  <p class="mt-3 p-2 text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae numquam porro fugit? Aspernatur, in repellat!</p>
+  <p class="mt-3 p-2 text-gray-500">@ 2021 greenday.com</p>
+</section>
+
+
+
 
 </html> 
